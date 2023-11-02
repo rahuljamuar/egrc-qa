@@ -1,0 +1,10 @@
+.main{
+    position: absolute;
+    top:50%;
+    left:calc(50% - 300px);
+    font-size: 80px;
+}
+.text{
+    height: 100px;
+    width :1000px
+}

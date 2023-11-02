@@ -1,0 +1,16 @@
+#popup-modal-role {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+   z-index: 200;
+  }
+  .main_logout{
+    position: absolute;
+    top:50%;
+    left:5% ;
+    font-size: 40px;
+}
+.logo{
+  padding: 10px;
+  background-color: #3f84e5;
+}

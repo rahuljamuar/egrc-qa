@@ -1,0 +1,24 @@
+.main{
+    position: absolute;
+    top:0%;
+    left:50px;
+    font-size: 80px;
+}
+.text{
+    font-size: 40px;
+    padding-top: 2%;
+    width :1000px;
+}
+.dashboardArea{
+    position:fixed;
+    padding-left:100px;
+    padding-top: 110px;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(255,255,255,0.5);
+}

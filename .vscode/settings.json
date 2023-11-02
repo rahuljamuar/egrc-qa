@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1759ce9c-ba37-41f9-8507-c81c62128c03/resourceGroups/res_egrc_V2/providers/Microsoft.Web/sites/egrc-turkey-dev",
+    "appService.deploySubpath": "."
+}

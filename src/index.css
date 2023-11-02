@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+ display: none; 
+}
+.Toastify__toast-container{
+    width: 15vw;
+}
+
+@media (min-width: 1280px) {
+
+  .Toastify__toast-container {
+    width: 25vw;
+  }
+}
+@media (min-width: 1536px) {
+
+  .Toastify__toast-container {
+   width: 25vw;
+  }
+}
+/* Ripple effect */
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+  }
+  .ripple:hover {
+    background: #008afc linear-gradient(circle, transparent 10%, #0062b3 8%) center/15000%;
+  }
+  .ripple:active {
+    background-color: #0088f7;
+    background-size: 100%;
+    transition: background 0s;
+  }
+
+  .MuiIconButton-label{
+    color: black;
+  }
+
+  .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track{
+    background-color: #64748b !important;
+  }
