@@ -1,11 +1,11 @@
 import { toast } from "react-toastify";
 
 export const baseUrl = {
-  local: "https://egrc-server-dev.azurewebsites.net/api",
+  local: "https://uat-server-egrc-turkey.azurewebsites.net/api",
 };
 
 export const env = {
-  environment: "dev",
+  environment: "uat",
 };
 
 export const adminDashboard = `https://app.powerbi.com/view?r=eyJrIjoiNzcxNTdlY2ItYjFhYS00YjkyLThkMmEtMTQwYjVlYzExNjA0IiwidCI6ImQyYWY4YjViLTlhN2UtNGM4NS1hM2ZkLWI2OWE2Njk4YjdkNiJ9`;
